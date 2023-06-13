@@ -105,4 +105,5 @@ Finally, search engines rely on well-structured and valid HTML to understand and
 Try copying and pasting your HTML into the [W3 (The World Wide Web Consortium) validator](https://validator.w3.org/#validate_by_input) and see what results you get.
 
 
-[Next lesson >>](./3_html_lists.md)
+# Next Lesson
+[HTML Lists](./3_html_lists.md)

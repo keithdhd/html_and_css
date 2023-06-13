@@ -73,11 +73,12 @@ HTML comments are formatted like this:
 <!-- This is a comment! -->
 ```
 
-In the next lesson, we'll look at some of the most used HTML tags and how to use them.
-
-[Next lesson >>](./2_html_elements.md)
-
 ### Resources for investigating HTML 
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [W3schools](https://www.w3schools.com/html/default.asp)
+
+In the next lesson, we'll look at some of the most used HTML tags and how to use them.
+
+# Next Lesson
+[HTML Elements](./2_html_elements.md)
