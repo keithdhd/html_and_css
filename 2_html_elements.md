@@ -35,18 +35,19 @@ In the above example the `h1` tag is nested inside the `body` tag.
 - `<table>`, `<tr>`, `<td>` Used together to create tables with rows and cells.
 
 
-Add the following code to your `index.html` between the opening and closing `body` tags so that it looks like this:
+Add the following code to your `index.html` between the opening and closing `body` tags:
 
 ```html
+  <!-- ... as before  -->
   <div>
-    <h1>Heading 1</h1>
+    <h1>Welcome to my HTML document</h1>
     <h2>Heading 2</h2>
     
     <p>This is a paragraph of text.</p>
     
     <a href="https://www.example.com">Visit Example.com</a>
     
-    <img src="image.jpg" alt="My Image">
+    <img src="https://picsum.photos/200/300" alt="Random Image">
     
     <ul>
       <li>List item 1</li>
@@ -73,18 +74,35 @@ Add the following code to your `index.html` between the opening and closing `bod
   </div>
 ```
 
+## Attributes
 
-2. Tag attributes
-3. classes & ids
-Identify ordered, unordered and definition lists
-Identify images
-Identify links
-Identify HTML validation tools
-Tables
+HTML element attributes provide additional information about an HTML element and modify its behavior or appearance. Attributes are added to HTML tags and are defined within the opening tag using name-value pairs. Here are some key points about HTML element attributes:
 
-https://validator.w3.org/
+1. Syntax: Attributes are written in the format `name="value"`, where `name` is the attribute name, and `value` is the attribute value enclosed in quotes.
+
+2. Common Attributes: Some commonly used attributes include `class, id, style, src, href, alt`. These attributes allow you to specify CSS classes, unique identifiers, inline styles, image sources, link destinations, and alternative text, respectively.
+
+3. Accessibility Attributes: HTML5 introduced a set of attributes to enhance web accessibility, such as `aria-label`, `aria-labelledby`, and `role`. These attributes provide information to assistive technologies and improve the accessibility of your web content.
+
+In the above example, the `<a>` tag has an `href` (link destination) attribute. What other attributes can you spot in the above example? 
+
+#### Answer
+
+- The `img` tag has a `src` attribute
+- The `input` tag has `type` and `placeholder` attributes 
+
+## Classes & ids
+
+Two of the important attributes you'll use are `class` and `id`. These are primarily used to allow a CSS rule to be applied to the element.
 
 
+## HTML validation tool
+
+It's important that we format our HTML correctly so that all browsers can read them correctly. It's also important that we try to follow the `Web Content Accessibility Guidelines (WCAG)` and vaildators can help us spot our errors. 
+
+Finally, search engines rely on well-structured and valid HTML to understand and index web pages effectively.
+
+Try copying and pasting your HTML into the [W3 (The World Wide Web Consortium) validator](https://validator.w3.org/#validate_by_input) and see what results you get.
 
 
 [Next lesson >>](./3_html_lists.md)

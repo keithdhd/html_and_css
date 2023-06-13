@@ -10,7 +10,7 @@ Here's a basic example of HTML code:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My First Webpage</title>
+    <title>My HTML document</title>
   </head>
   <body>
     <h1>Welcome to My Webpage</h1>
@@ -22,7 +22,7 @@ Here's a basic example of HTML code:
 
 In the above example, we have the following HTML elements:
 
-- `<!DOCTYPE html>` This declaration specifies the HTML version being used, which is HTML5 in this case.
+- `<!DOCTYPE html>` This declaration specifies the HTML version being used, which is HTML5 (the fifth and final major HTML version) in this case.
 - `<html lang="en">` The root element of an HTML document.
 - `<head>` This section contains metadata and other non-visible elements for the webpage, such as the title of the page.
 - `<title>`  The title of the webpage, displayed in the browser's title bar or tab.
@@ -62,6 +62,8 @@ Open the `index.html` in VS Code and start typing `HTML`. Notice the suggestions
 Save your document and make sure that Prettier formats it correctly. 
 
 Inside the `<body>` tag is where we will write all our HTML tags. The `<body>` is the main content that the browser will display. 
+
+To view your document in a browser, install the [Live Share extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). Once installed, right click on the file in VS Code and "Open with Live Server"
 
 ## Comments 
 
