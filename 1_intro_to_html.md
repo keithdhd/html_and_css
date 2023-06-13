@@ -65,7 +65,7 @@ Inside the `<body>` tag is where we will write all our HTML tags. The `<body>` i
 
 ## Comments 
 
-HTML comments are formmatted like this:
+HTML comments are formatted like this:
 
 ```html
 <!-- This is a comment! -->
