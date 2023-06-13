@@ -15,7 +15,7 @@ Here's a basic example of HTML code:
   <body>
     <h1>Welcome to My Webpage</h1>
     <p>This is a paragraph of text.</p>
-    <img src="image.jpg" alt="My Image" />
+    <img src="https://picsum.photos/200/300" alt="Random Image" />
   </body>
 </html>
 ```
