@@ -5,9 +5,11 @@ Check your understanding!
 
 1. The `<body>` is the main content that the browser will display.
 
+<form>
 <input type="radio" name="question1" /> True
 <br> 
 <input type="radio" name="question1" /> False 
+</form>
 
 <details>
   <summary>Answer</summary>
