@@ -81,4 +81,4 @@ HTML comments are formatted like this:
 In the next lesson, we'll look at some of the most used HTML tags and how to use them.
 
 # Next Lesson
-[HTML Elements](./2_html_elements.md)
+[HTML Elements >>](./2_html_elements.md)
