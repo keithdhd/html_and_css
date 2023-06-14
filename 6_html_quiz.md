@@ -7,6 +7,7 @@ Check your understanding!
 
 <details>
   <summary>Answer</summary>
+  
   True
   
 </details>
@@ -17,6 +18,7 @@ Check your understanding!
 
 <details>
   <summary>Answer</summary>
+
   True
   
 </details>
@@ -27,6 +29,7 @@ Check your understanding!
 
 <details>
   <summary>Answer</summary>
+
   False. The content of the `<title>` tag is displayed in the browser's title bar or tab. An `<h1>` tag represents the main heading of the page.
   
 </details>
