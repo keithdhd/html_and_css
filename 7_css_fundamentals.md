@@ -318,14 +318,8 @@ h3 {
 
 ## Debugging with Chrome devtools
 
-Open the Element tab.
+Right click on the browser ans select "Inspect". Open the "Elements" tab and the "Styles" tab.
 
-Drag up the Styles tab.
+Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
+Remember though that any changes you make in the Devtools will need to be copied into your actual CSS file otherwise they won't be saved.
 
-- If something is crossed out, it means it's being ignored.
-
-- You can disable styles by checking the boxes. Good way to experiment.
-
-- You can click :hov to expose the pseudo-classes.
-
-- For colors, you can click on the color box in devtools and change the color. You can cycle through the different units using shift and click.

@@ -53,6 +53,10 @@ A critical part of the CSS rendering model. There are four elements to the box m
 3. Border
 4. Margin
 
+Open your Devtools in Chrome and located the "Styles" tab. Scroll down to the bottom and you'll see a diagram like this:
+
+![Box Model](./images/box_model.png)
+
 What does it mean when we say an element has a width of 100%? Consider the following:
 
 ```css
