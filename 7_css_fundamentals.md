@@ -4,7 +4,13 @@ CSS (Cascading Style Sheets) is a language that is used in combination with HTML
 
 ## Linking CSS to HTML
 
+```html
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
 
+In the example above, the `<link>` element is placed within the `<head>` section. The rel attribute specifies the relationship between the HTML document and the linked file, and the href attribute specifies the path or URL to the stylesheet file. In this case, the stylesheet file is named `styles.css` and is located in the same directory as the HTML file.
 
 ## Style Rules & Terminology
 
