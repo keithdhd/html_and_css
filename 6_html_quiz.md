@@ -109,7 +109,7 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    `<table>`, `<tr>`, `<td>`
+    <table>, <tr>, <td>
   
 </details>
 
