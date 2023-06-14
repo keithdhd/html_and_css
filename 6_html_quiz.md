@@ -3,27 +3,20 @@
 Check your understanding!
 
 
-1. The `<body>` is the main content that the browser will display.
-
-<form>
-<input type="radio" name="question1" /> True
-<br> 
-<input type="radio" name="question1" /> False 
-</form>
+### The `<body>` is the main content that the browser will display. True or False?
 
 <details>
   <summary>Answer</summary>
+  True
   
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+</details>
 
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
+<hr />
+
+### The `<body>` is the main content that the browser will display. True or False?
+
+<details>
+  <summary>Answer</summary>
+  True
+  
 </details>
