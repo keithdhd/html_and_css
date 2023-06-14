@@ -110,13 +110,12 @@ Check your understanding!
 </details>
 
 
-
-#### 12. HTML5 introduced a set of attributes to enhance web accessibility
+#### 12. HTML5 introduced a set of attributes to enhance web accessibility. What is accessibility?
 
 <details>
   <summary>Answer</summary>
 
-    Attributes provide additional information about an HTML element and modify its behaviour or appearance. Attributes are added to HTML tags and are defined within the opening tag using name-value pairs.
+  Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
   
 </details>
 
