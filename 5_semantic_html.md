@@ -46,6 +46,8 @@ And this would tell us much more about the structure of the page than a website 
 
 ![Semantic Website Example](./images/non_semantic_website.png)
 
+So we agree that semantic HTML is informative, accessible, and more fit for purpose. With this in mind, we can now be more conscientious developers and use the most appropriate tag for every situation. We will still sometimes use non-semantic HTML such as `<div>`s but we should always think if there is a more appropriate tag first.
+
 ### Further resources
 
 - [Semantic HTML and accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
