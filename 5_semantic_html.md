@@ -25,15 +25,18 @@ Let's take a look at two ways of doing the same thing and see which is better:
 Functionally, both do the same job: they display a title. However, we should always prefer the semantic approach. This is because it has some built in styling should our CSS fall through, it makes search engines understand the content of our pages and index them accurately, and most importantly they are crucial for people using screen readers and other accessibility tools. 
 
 Here are some semantic html tags that we can use to be as syntactically appropriate as possible:
-- <article>
-- <aside>
-- <details>
-- <footer>
-- <header>
-- <main>
-- <nav>
-- <section>
-- <summary>
+
+``` html
+<article>
+<aside>
+<details>
+<footer>
+<header>
+<main>
+<nav>
+<section>
+<summary>
+```
 
 For example, our website could be made up of tags like so:
 
