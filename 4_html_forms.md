@@ -114,6 +114,10 @@ The markup for our form is almost complete; we just need to add a button to allo
 <button type="submit">Send your message</button>
 ```
 
+### Accessibility
+
+[How to write accessible forms](https://www.a11yproject.com/posts/how-to-write-accessible-forms/)
+
 ### Complete Form Example
 
 Your completed form should now look like this:
