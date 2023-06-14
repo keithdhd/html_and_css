@@ -3,7 +3,7 @@
 Check your understanding!
 
 
-### The `<body>` is the main content that the browser will display. True or False?
+#### The `<body>` is the main content that the browser will display. True or False?
 
 <details>
   <summary>Answer</summary>
@@ -13,7 +13,7 @@ Check your understanding!
 
 <hr />
 
-### The `<body>` is the main content that the browser will display. True or False?
+#### The `<body>` is the main content that the browser will display. True or False?
 
 <details>
   <summary>Answer</summary>
