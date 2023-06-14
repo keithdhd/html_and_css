@@ -76,7 +76,7 @@ Add the following code to your `index.html` between the opening and closing `bod
 
 ## Attributes
 
-HTML element attributes provide additional information about an HTML element and modify its behavior or appearance. Attributes are added to HTML tags and are defined within the opening tag using name-value pairs. Here are some key points about HTML element attributes:
+HTML element attributes provide additional information about an HTML element and modify its behaviour or appearance. Attributes are added to HTML tags and are defined within the opening tag using name-value pairs. Here are some key points about HTML element attributes:
 
 1. Syntax: Attributes are written in the format `name="value"`, where `name` is the attribute name, and `value` is the attribute value enclosed in quotes.
 
@@ -90,6 +90,14 @@ In the above example, the `<a>` tag has an `href` (link destination) attribute. 
 
 - The `img` tag has a `src` attribute
 - The `input` tag has `type` and `placeholder` attributes 
+
+## Accessibility
+
+Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+
+WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications) is a specification written by the W3C, defining a set of additional HTML attributes that can be applied to elements to provide additional semantics and improve accessibility wherever it is lacking.
+
+[Read more about accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
 ## Classes & ids
 
