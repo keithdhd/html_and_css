@@ -21,15 +21,24 @@ In the example above, the `<link>` element is placed within the `<head>` section
 }
 ```
 
-This whole things is called a `rule`
+It's important to be able to talk technically about our code, so let's look at some vocabulary to describe what is going on in this fragment.
 
-`.welcome-text` is called the `selector`
+This whole block of code is called a CSS `rule`
 
-`color` is called a `property`
+`.welcome-text` is the `selector`
 
-`color: green;` is called a `declaration`
+`color` is a `property`
 
-`24px` is called a `unit`
+`color: green;` is a `declaration`
+
+`24px` is a `unit`
+
+## Debugging with Chrome devtools
+
+Right click on the browser ans select "Inspect". Open the "Elements" tab and the "Styles" tab.
+
+Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
+Remember though that any changes you make in the Devtools will need to be copied into your actual CSS file otherwise they won't be saved.
 
 ## Selectors
 
@@ -314,12 +323,3 @@ h3 {
   line-height: 5;
 }
 ```
-
-
-## Debugging with Chrome devtools
-
-Right click on the browser ans select "Inspect". Open the "Elements" tab and the "Styles" tab.
-
-Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
-Remember though that any changes you make in the Devtools will need to be copied into your actual CSS file otherwise they won't be saved.
-
