@@ -30,7 +30,9 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    False. The content of the `<title>` tag is displayed in the browser's title bar or tab. An `<h1>` tag represents the main heading of the page.
+    False. The content of the `<title>` tag is displayed in the browser's title bar or tab. 
+    
+    An <h1> tag represents the main heading of the page.
   
 </details>
 
@@ -41,7 +43,7 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    `<img>`
+    <img>
   
 </details>
 
@@ -52,9 +54,9 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    ```html
-        <!-- This is a comment! -->
-    ```
+  
+    <!-- This is a comment! -->
+    
   
 </details>
 
@@ -142,7 +144,9 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    A Form control is an HTML element used inside a `<form>` element that allows the user to enter or select input. Some examples are <strong>input fields, checkboxes, radio buttons, dropdown lists, and buttons</strong>
+    A Form control is an HTML element used inside a `<form>` element that allows the user to enter or select input. 
+    
+    Some examples are <strong>input fields, checkboxes, radio buttons, dropdown lists, and buttons</strong>
   
 </details>
 
