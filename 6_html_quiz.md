@@ -143,18 +143,8 @@ Check your understanding!
 
 <hr />
 
-#### 13. What is a Form control? Give an example.
 
-<details>
-  <summary>Answer</summary>
-  
-  A Form control is an HTML element used inside a `<form>` element that allows the user to enter or select input. Some examples are <strong>input fields, checkboxes, radio buttons, dropdown lists, and buttons</strong>
-  
-</details>
-
-<hr />
-
-#### 14. What is a `<label>` element? 
+#### 13. What is a `<label>` element? 
 
 <details>
   <summary>Answer</summary>
@@ -165,7 +155,7 @@ Check your understanding!
 
 <hr />
 
-#### 15. The `for` attribute of a label matches the `id` of the related form control. True or False? 
+#### 14. The `for` attribute of a label matches the `id` of the related form control. True or False? 
 
 <details>
   <summary>Answer</summary>
@@ -176,7 +166,7 @@ Check your understanding!
 
 <hr />
 
-#### 16.  Which HTML element must be nested inside a `<select>` element?
+#### 15.  Which HTML element must be nested inside a `<select>` element?
 
 <details>
   <summary>Answer</summary>
@@ -185,3 +175,35 @@ Check your understanding!
   
 </details>
 
+#### 16. What is the purpose of a Form?
+
+<details>
+  <summary>Answer</summary>
+  
+  HTML forms are a fundamental part of web development, allowing users to interact with and submit data to a website.
+  
+</details>
+
+<hr />
+
+#### 17. What is a Form control? Give an example.
+
+<details>
+  <summary>Answer</summary>
+  
+  A Form control is an HTML element used inside a `<form>` element that allows the user to enter or select input. Some examples are <strong>input fields, checkboxes, radio buttons, dropdown lists, and buttons</strong>
+  
+</details>
+
+<hr />
+
+#### 18. What are semantic HTML elements?
+
+<details>
+  <summary>Answer</summary>
+  
+  Semantic HTML elements clearly describes their meaning to both the browser and the developer.
+
+</details>
+
+<hr />
