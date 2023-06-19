@@ -117,12 +117,14 @@ Check your understanding!
 
 <hr />
 
-#### 11. What is an attribute?
+#### 11. What is an attribute? Give an example.
 
 <details>
   <summary>Answer</summary>
 
     Attributes provide additional information about an HTML element and modify its behaviour or appearance. Attributes are added to HTML tags and are defined within the opening tag using name-value pairs.
+
+    And exmaple would be the `href` attribute of an anchor tag.
   
 </details>
 
@@ -143,10 +145,8 @@ Check your understanding!
 
 <details>
   <summary>Answer</summary>
-
-    A Form control is an HTML element used inside a `<form>` element that allows the user to enter or select input. 
-    
-    Some examples are <strong>input fields, checkboxes, radio buttons, dropdown lists, and buttons</strong>
+  
+  A Form control is an HTML element used inside a `<form>` element that allows the user to enter or select input. Some examples are <strong>input fields, checkboxes, radio buttons, dropdown lists, and buttons</strong>
   
 </details>
 
@@ -179,7 +179,7 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    `<option>`
+    <option>
   
 </details>
 
