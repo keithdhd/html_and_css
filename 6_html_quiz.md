@@ -204,7 +204,7 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
   
-  Semantic HTML elements clearly describes their meaning to both the browser and the developer.
+  Semantic HTML elements clearly describe their meaning to both the browser and the developer.
 
 </details>
 
