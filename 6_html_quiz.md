@@ -209,3 +209,6 @@ Check your understanding!
 </details>
 
 <hr />
+
+# Next Lesson
+[CSS Fundamentals >>](./css/7_css_fundamentals.md)
