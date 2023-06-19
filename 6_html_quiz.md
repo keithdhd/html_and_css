@@ -175,6 +175,8 @@ Check your understanding!
   
 </details>
 
+<hr />
+
 #### 16. What is the purpose of a Form?
 
 <details>
