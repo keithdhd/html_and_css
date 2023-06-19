@@ -122,11 +122,11 @@ Check your understanding!
 <details>
   <summary>Answer</summary>
 
-    Attributes provide additional information about an HTML element and modify its behaviour or appearance. 
+   Attributes provide additional information about an HTML element and modify its behaviour or appearance. 
     
-    Attributes are added to HTML tags and are defined within the opening tag using name-value pairs.
+   Attributes are added to HTML tags and are defined within the opening tag using name-value pairs.
 
-    And exmaple would be the `href` attribute of an anchor tag.
+   An exmaple would be the `href` attribute of an anchor tag.
   
 </details>
 
