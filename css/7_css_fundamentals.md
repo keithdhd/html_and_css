@@ -1,3 +1,5 @@
+# CSS Fundamentals
+
 CSS (Cascading Style Sheets) is a language that is used in combination with HTML to customise how HTML elements will appear. CSS can define styles and change the layout and design of a document.
 
 ## Linking CSS to HTML
