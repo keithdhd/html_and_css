@@ -16,8 +16,8 @@ In our stylesheet is where we declare our CSS "rules" that will affect the HTML 
 
 ```css
 .welcome-text {
-  color: green;
-  margin-top: 24px;
+    color: grey;
+    font-size: 3rem;
 }
 ```
 
@@ -29,13 +29,30 @@ This whole block of code is called a CSS `rule`
 
 `color` is a `property`
 
-`color: green;` is a `declaration`
+`color: grey;` is a `declaration`
 
-`24px` is a `unit`
+`3rem` is a `unit`
+
+Using the above rule, we can associate it with an HTML element in the index.html, in this case using the `class` attribute.
+
+```html
+ <h1 class="welcome-text">Welcome to CodeClan Services</h1>
+```
+
+The result would be:
+
+![Welcome text example](../images/welcome_text_example.png)
+
+
+
+
+
+
+
 
 ## Debugging with Chrome devtools
 
-Right click on the browser ans select "Inspect". Open the "Elements" tab and the "Styles" tab.
+Right click on the browser and select "Inspect". Open the "Elements" tab and the "Styles" tab.
 
 Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
 
