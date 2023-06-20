@@ -46,7 +46,78 @@ The result would be:
 ![Welcome text example](../images/welcome_text_example.png)
 
 
+## CSS Selectors
 
+### Element Selectors
+
+```css
+/* Make all h1 elements black */
+h1 {
+    color: black;
+}
+
+/* Remove the underscore from all anchor tags */
+
+a {
+    text-decoration: none;
+}
+```
+
+### Class Selectors
+
+```css
+/* Give all the elements with class 'card' a top margin */
+
+.card {
+    top-margin: 10px;
+}
+```
+
+### ID Selectors
+
+```css
+/* Give the element with id 'main-section' a flex display */
+
+#main-section {
+    display: flex;
+}
+```
+
+## Pseudo-classes
+
+```css
+/* :hover is one of the most common pseudo-classes */
+/* Remove the underscore from all links on hover */
+
+a:hover {
+    text-decoration: none;
+}
+```
+
+## Combinators
+
+Combinators are characters between selectors that combine elements
+
+### The space combinator (all descendants!)
+
+Add a space between 'nav' and 'a'
+
+```css
+/* Make all links inside a nav blue and bold */
+/* This applies to all links no matter how deeply nested they are within the nav */
+
+nav a {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Target ONLY the direct children */
+
+nav > a {
+  color: blue;
+  font-weight: bold;
+}
+```
 
 
 
