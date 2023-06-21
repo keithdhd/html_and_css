@@ -51,8 +51,8 @@ The result would be:
 ### Element Selectors
 
 ```css
-/* Make all h1 elements black */
-h1 {
+/* Make all h2 elements black */
+h2 {
     color: black;
 }
 
