@@ -4,7 +4,6 @@ body {
   margin: 0;
 }
 
-
 nav {
   background-color: #0b0c0c;
   color: #fff;
@@ -108,6 +107,15 @@ ul {
 
 ul > li {
   margin-bottom: 20px;
+}
+
+.topic_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topic_header i {
+  color: #1d70b8;
 }
 
 .link {

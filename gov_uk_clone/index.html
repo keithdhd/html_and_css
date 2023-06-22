@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <nav>
@@ -18,12 +19,9 @@
         <span>GOV.UK</span>
       </a>
     </span>
-    <span id="gov-menu">Menu</span>
+    <span id="gov-menu"> <i class="fa-solid fa-chevron-down"></i> Menu</span>
     <span id="gov-search">
-      <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-        <circle cx="12.0161" cy="11.0161" r="8.51613" stroke="currentColor" stroke-width="3"></circle>
-        <line x1="17.8668" y1="17.3587" x2="26.4475" y2="25.9393" stroke="currentColor" stroke-width="3"></line>
-      </svg>
+      <i class="fa-solid fa-magnifying-glass"></i>
     </span>
   </nav>
   <main>
@@ -54,10 +52,7 @@
           <div class="search-container">
             <input type="text" id="search">
             <button>
-              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-                <circle cx="12.0161" cy="11.0161" r="8.51613" stroke="currentColor" stroke-width="3"></circle>
-                <line x1="17.8668" y1="17.3587" x2="26.4475" y2="25.9393" stroke="currentColor" stroke-width="3"></line>
-              </svg>
+              <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
         </form>
@@ -68,53 +63,46 @@
       <h2>Topics</h2>
       <div class="topics">
         <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Benefits</a></h3>
+          <div class="topic_header">
+            <h3><a href="" class="link link--blue">Benefits</a></h3>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
           <p>Includes eligibility, appeals, tax credits and Universal Credit</p>
         </div>
         <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Births, deaths, marriages and care</a></h3>
+          <div class="topic_header">
+            <h3><a href="" class="link link--blue">Births, deaths, marriages and care</a></h3>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
           <p>Parenting, civil partnerships, divorce and Lasting Power of Attorney</p>
         </div>
         <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Business and self-employed</a></h3>
+          <div class="topic_header">
+            <h3><a href="" class="link link--blue">Business and self-employed</a></h3>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
           <p>Tools and guidance for businesses</p>
         </div>
         <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Childcare and parenting</a></h3>
+          <div class="topic_header">
+            <h3><a href="" class="link link--blue">Childcare and parenting</a></h3>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
           <p>Includes giving birth, fostering, adopting, benefits for children, childcare and schools</p>
         </div>
         <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Citizenship and living in the UK</a></h3>
+          <div class="topic_header">
+            <h3><a href="" class="link link--blue">Citizenship and living in the UK</a></h3>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
           <p>Voting, community participation, life in the UK, international projects</p>
         </div>
         <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Crime, justice and the law</a></h3>
+          <div class="topic_header">
+            <h3><a href="" class="link link--blue">Crime, justice and the law</a></h3>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
           <p>Legal processes, courts and the police</p>
-        </div>
-        <div class="topic">
-          <svg class="topic__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-          <h3><a href="" class="link link--blue">Disabled people</a></h3>
-          <p>Includes carers, your rights, benefits and the Equality Act</p>
         </div>
       </div>
     </section>
