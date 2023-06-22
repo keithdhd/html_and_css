@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, arial;
+}
+
+section {
+    padding: 30px 30px 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.top-companies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.card {
+    position: relative;
+    flex-grow: 1;
+    width: 30%;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #b1b4b6;
+    border-radius: 6px;
+    margin: 15px 15px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    background: rgb(252,232,230);
+    color: rgb(165,14,14);
+}
