@@ -20,6 +20,10 @@ nav > span {
   flex-grow: 1;
 }
 
+#gov-logo img {
+  max-height: 25px;
+}
+
 #gov-logo a {
   color: #fff;
   font-size: 30px;
