@@ -4,7 +4,6 @@ body {
   margin: 0;
 }
 
-
 nav {
   background-color: #0b0c0c;
   color: #fff;
@@ -19,6 +18,10 @@ nav > span {
 
 #gov-logo {
   flex-grow: 1;
+}
+
+#gov-logo img {
+  max-height: 25px;
 }
 
 #gov-logo a {
@@ -108,6 +111,15 @@ ul {
 
 ul > li {
   margin-bottom: 20px;
+}
+
+.topic-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topic-header i {
+  color: #1d70b8;
 }
 
 .link {
