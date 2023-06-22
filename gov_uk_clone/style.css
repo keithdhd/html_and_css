@@ -113,12 +113,12 @@ ul > li {
   margin-bottom: 20px;
 }
 
-.topic_header {
+.topic-header {
   display: flex;
   justify-content: space-between;
 }
 
-.topic_header i {
+.topic-header i {
   color: #1d70b8;
 }
 
