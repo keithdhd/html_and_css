@@ -48,7 +48,9 @@ The result would be:
 
 ## CSS Selectors
 
-### Element Selectors
+In the above example we targeted the HTML element using the `class` selector. However, there are many ways to target HTML elements. The most common are listed here: 
+
+### Common Element Selectors
 
 ```css
 /* Make all h2 elements black */
@@ -57,7 +59,6 @@ h2 {
 }
 
 /* Remove the underscore from all anchor tags */
-
 a {
     text-decoration: none;
 }
@@ -67,7 +68,6 @@ a {
 
 ```css
 /* Give all the elements with class 'card' a top margin */
-
 .card {
     top-margin: 10px;
 }
@@ -77,7 +77,6 @@ a {
 
 ```css
 /* Give the element with id 'main-section' a flex display */
-
 #main-section {
     display: flex;
 }
@@ -88,7 +87,6 @@ a {
 ```css
 /* :hover is one of the most common pseudo-classes */
 /* Remove the underscore from all links on hover */
-
 a:hover {
     text-decoration: none;
 }
@@ -105,14 +103,12 @@ Add a space between 'nav' and 'a'
 ```css
 /* Make all links inside a nav blue and bold */
 /* This applies to all links no matter how deeply nested they are within the nav */
-
 nav a {
   color: blue;
   font-weight: bold;
 }
 
 /* Target ONLY the direct children */
-
 nav > a {
   color: blue;
   font-weight: bold;
@@ -120,14 +116,15 @@ nav > a {
 ```
 
 
-
-
-
 ## Debugging with Chrome devtools
+
+Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. This is **really** useful for development and debugging. It takes a bit of practice to use it effectively so it's good to start playing with it now.
 
 Right click on the browser and select "Inspect". Open the "Elements" tab and the "Styles" tab.
 
 Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
 
-Remember though that any changes you make in the Devtools will need to be copied into your actual CSS file otherwise they won't be saved.
+Remember though that any changes you make in the DevTools will need to be copied into your actual CSS file otherwise they won't be saved.
 
+# Next Lesson
+[CSS Box Model >>](./8_css_box_model.md)
