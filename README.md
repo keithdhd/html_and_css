@@ -9,6 +9,7 @@
 7. [CSS Fundmanetals](./css/7_css_fundamentals.md)
 8. [CSS Box Model](./css/8_css_box_model.md)
 9. [CSS Layout](./css/9_css_layout.md)
+10. [Optional CSS Exercises](https://github.com/TheOdinProject/css-exercises)
 
 <hr>
 
