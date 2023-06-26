@@ -315,6 +315,14 @@ h3 {
 }
 ```
 
+## Flex Layout
+
+The default flow layout is great for the original purpose of HTML & CSS - namely laying documents out a bit like a newspaper. 
+
+However, as the web has developed, user interfaces have become increasingly complex. Probably the best and easiest approach to layout is the `flex layout` (A.K.A Flexbox).
+
+For a good understanding of Flexbox, checkout the first half of [this interactive guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) (up to but not including "Hypothetical size")
+
 ## Debugging with Chrome devtools
 
 Right click on the browser ans select "Inspect". Open the "Elements" tab and the "Styles" tab.

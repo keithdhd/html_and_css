@@ -114,6 +114,30 @@ nav > a {
   font-weight: bold;
 }
 ```
+## The Cascade Algorithm
+
+If there are competing rules to apply to an element, there will be a battle! Who wins?
+
+In order of importance:
+
+- inherited styles (not very important)
+- tag styles
+- classes
+- ids
+- inline styles
+- Marked as important! (the most important. Always wins.)
+
+Usually we can avoid this complication. For example in React, we should never have to worry about the cascade because our CSS will be black-boxed.
+
+## Block and Inline
+
+CSS has two axes. A block axis (vertical) and an inline axis (horizontal)
+
+Block direction is like lego blocks: they stack together one on top of the other.
+
+Inline direction is like people standing in-line; they stand side by side, not one on top of the other.
+
+HTML elements have a default direction - either block or inline, that the browser built-in styles apply. For example, <p> elements are block by default and so stack on top of each other. Most elements are block elements.
 
 ## Debugging with Chrome devtools
 
