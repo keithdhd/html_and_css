@@ -243,7 +243,7 @@ font-weight: bold;
 
 ```
 
-Using a <strong> tag will also make text bold but it also has semantic meaning. It stresses that it's important.
+Using a `<strong>` tag will also make text bold but it also has semantic meaning. It stresses that it's important.
 
 ### Italics
 
