@@ -43,7 +43,7 @@ Using the above rule, we can associate it with an HTML element in the index.html
 
 The result would be:
 
-![Welcome text example](../images/welcome_text_example.png)
+![Welcome text example](./images/welcome_text_example.png)
 
 
 ## CSS Selectors
