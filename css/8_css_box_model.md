@@ -2,16 +2,14 @@
 
 This is a critical part of the CSS rendering model. There are four elements to the box model.
 
-1. Content
-2. Padding
-3. Border
-4. Margin
+1. Content - the content between the opening and closing element tags
+2. Padding - the space around the content
+3. Border - the border that surrounds the passing and content
+4. Margin - the space outside the border
 
 Open your DevTools in Chrome and located the "Styles" tab. Scroll down to the bottom and you'll see a diagram like this:
 
 ![Box Model](./images/box_model.png)
-
-What does it mean when we say an element has a width of 100%? Consider the following:
 
 ## Padding
 
