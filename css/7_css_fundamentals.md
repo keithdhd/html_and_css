@@ -115,7 +115,6 @@ nav > a {
 }
 ```
 
-
 ## Debugging with Chrome devtools
 
 Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. This is **really** useful for development and debugging. It takes a bit of practice to use it effectively so it's good to start playing with it now.
@@ -124,7 +123,15 @@ Right click on the browser and select "Inspect". Open the "Elements" tab and the
 
 Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
 
-Remember though that any changes you make in the DevTools will need to be copied into your actual CSS file otherwise they won't be saved.
+Remember though that any changes you make in the DevTools will need to be copied into your actual CSS file otherwise they won't be saved! 
+
+### Further resources
+
+CSS has a huge array of declaration types. We've covered the basic fundamentals of the mechanics in this short lesson but the best way to learn CSS is to look up the techniques as and when you need them. The following resources have comprehensive documentation. 
+
+- [MDN CSS docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [W3Schools CSS](https://www.w3schools.com/css/)
+- [CSS Tricks](https://css-tricks.com/almanac/)
 
 # Next Lesson
 [CSS Box Model >>](./8_css_box_model.md)
