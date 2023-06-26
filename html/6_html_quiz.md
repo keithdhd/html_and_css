@@ -212,5 +212,5 @@ Check your understanding!
 <hr />
 
 # Next Lesson
-[CSS Fundamentals >>](./css/7_css_fundamentals.md)
+[CSS Fundamentals >>](../css/7_css_fundamentals.md)
 
