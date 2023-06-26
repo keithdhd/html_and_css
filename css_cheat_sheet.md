@@ -1,4 +1,4 @@
-# CSS Fundamentals
+# CSS Cheat Sheet
 
 CSS (Cascading Style Sheets) is a language that is used in combination with HTML to customise how HTML elements will appear. CSS can define styles and change the layout and design of a document.
 
@@ -6,11 +6,11 @@ CSS (Cascading Style Sheets) is a language that is used in combination with HTML
 
 ```html
 <head>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 ```
 
-In the example above, the `<link>` element is placed within the `<head>` section. The rel attribute specifies the relationship between the HTML document and the linked file, and the href attribute specifies the path or URL to the stylesheet file. In this case, the stylesheet file is named `styles.css` and is located in the same directory as the HTML file.
+In the example above, the `<link>` element is placed within the `<head>` section. The rel attribute specifies the relationship between the HTML document and the linked file, and the href attribute specifies the path or URL to the stylesheet file. In this case, the stylesheet file is named `style.css` and is located in the same directory as the HTML file.
 
 ## Style Rules & Terminology
 
@@ -315,11 +315,10 @@ h3 {
 }
 ```
 
-
 ## Debugging with Chrome devtools
 
 Right click on the browser ans select "Inspect". Open the "Elements" tab and the "Styles" tab.
 
 Here you can see the CSS that is applied to the HTML elements. You can edit your CSS here and see it change in the browser.
-Remember though that any changes you make in the Devtools will need to be copied into your actual CSS file otherwise they won't be saved.
 
+Remember though that any changes you make in the Devtools will need to be copied into your actual CSS file otherwise they won't be saved.
