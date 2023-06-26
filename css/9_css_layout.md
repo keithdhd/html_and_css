@@ -26,13 +26,11 @@ However, as the web has developed, user interfaces have become increasingly comp
 
 For a good understanding of Flexbox, checkout the first half of [this interactive guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) (up to but not including "Hypothetical size")
 
+Play [Flexbox Froggy](https://flexboxfroggy.com/) for practice!
 
 ## Common Layout Formulas
 
-
-
-https://csslayout.io/
-
+A collection of popular layouts and patterns made with CSS can be found [here](https://csslayout.io/).
 
 ### Further resources
 
