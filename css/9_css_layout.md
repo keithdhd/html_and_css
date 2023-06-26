@@ -34,4 +34,5 @@ A collection of popular layouts and patterns made with CSS can be found [here](h
 
 ### Further resources
 
-[MDN Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
+- [MDN Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
+- [Optional CSS Exercises](https://github.com/TheOdinProject/css-exercises)
